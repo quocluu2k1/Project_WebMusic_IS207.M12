@@ -1,0 +1,42 @@
+[
+    {
+        "sid": "s1",
+        "songName": "Bước Qua Nhau",
+        "singerName": "Vũ",
+        "imgSong": "img-song/BuocQuaNhau-Vu.png",
+        "url": "audio/BuocQuaNhau-Vu.mp3",
+        "lyrics": ""
+    },
+    {
+        "sid": "s2",
+        "songName": "Gió Vẫn Hát",
+        "singerName": "Hương Ly",
+        "imgSong": "img-song/GioVanHat-HuongLy.jpg",
+        "url": "audio/Gio-Van-Hat-Huong-Ly.mp3",
+        "lyrics": ""
+    },
+    {
+        "sid": "s3",
+        "songName": "Chúng Ta Của Hiện Tại",
+        "singerName": "Sơn Tùng - MTP",
+        "imgSong": "img-song/ChungTaCuaHienTai-SonTung.jpg",
+        "url": "audio/ChungTaCuaHienTai-SonTung.mp3",
+        "lyrics": ""
+    },
+    {
+        "sid": "s4",
+        "songName": "Cưới Thôi",
+        "singerName": "Masew",
+        "imgSong": "img-song/CuoiThoi-Masew.jpg",
+        "url": "audio/CuoiThoi-Masew.mp3",
+        "lyrics": ""
+    },
+    {
+        "sid": "s5",
+        "songName": "Dịu Dàng Em Đến",
+        "singerName": "Erik",
+        "imgSong": "img-song/DiuDangEmDen-Erik.jpg",
+        "url": "audio/DiuDangEmDen-ERIK.mp3",
+        "lyrics": ""
+    }
+]

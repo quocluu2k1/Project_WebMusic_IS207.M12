@@ -1,0 +1,120 @@
+.owl-nav{
+    font-size: 250%;
+}
+.owl-carousel,.owl-theme{
+    position: absolute;
+}
+.content{
+    padding: 15px;
+}
+
+.content>hr{
+    width: 90%;
+    margin-bottom: 15px;
+}
+.new-song,.famous-song,.featured-singer,.news{
+    padding-top: 10px;
+    margin-top: 20px;
+    background-color: hsla(0,0%,100%,0.05);
+    border-radius: 3px;
+}
+.new-song h2,.famous-song h2,.featured-singer h2,.news h2{
+    text-align: left;
+    margin-left: 20px;
+    color: rgb(0, 217, 255);
+}
+.new-song>.list-song,.famous-song>.list-song{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 10px;
+}
+.list-song>.song{
+    width: 200px;
+    height: 280px;
+}
+.list-song>.song>button{
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.list-song>.song>button:hover{
+    box-shadow: 0px 0px 6px 2px rgb(0, 154, 243);
+    transform: translateY(0) scale(1.01);
+}
+
+.list-song>.song img{
+    
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+}
+/* .list-song>.song i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 330%;
+    visibility: hidden;
+} */
+.list-song>.song>.song-info>a{
+    color: #fff;
+    display: flex;
+    margin-left: 22px;
+    margin-top: 10px;
+    text-decoration: none !important;
+}
+.list-song>.song>.song-info>.song-name{
+    font-size: 15px;
+    font-weight: 700;  
+}
+.list-song>.song>.song-info>.song-name:hover, .list-song>.song>.song-info>.singer-name:hover{
+    color:#0d5cb6;
+}
+
+.list-singer{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.list-singer>.singer{
+    width: 200px;
+    height: 240px;
+}
+.list-singer>.singer>img{
+    border: 2px solid #0d64b6;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+.list-singer>.singer>a{
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none !important;
+}
+.list-singer>.singer>a:hover{
+    color: #0d5cb6;
+}
+
+.news>.content-news{
+    display: flex;
+    margin-top: 5px;
+    height: 250px;
+}
+.news>.content-news>img{
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #03b5eb;
+    border-radius: 4px;
+}
+.news>.content-news>p{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: left;
+}

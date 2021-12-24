@@ -1,0 +1,91 @@
+.charts{
+    padding: 0;
+    display: block;
+}
+.charts>h1{
+    margin-bottom: 20px;
+}
+.charts>hr{
+    width: 90%;
+    margin-bottom: 50px;
+}
+.charts>.ranking{
+    background-color: hsla(0,0%,100%,0.03);
+    padding: 10px;
+    border-radius: 5px;
+}
+.charts>.ranking>.song-ranking{
+    display: flex;
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    padding-left: 30px; 
+    border-radius: 15px;
+}
+.charts>.ranking>.song-ranking:hover{
+    background-color: hsla(0,0%,100%,0.1);
+}
+.charts>.ranking>.song-ranking>span{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+.charts>.ranking>.song-ranking>.info{
+    display:flex;
+    margin-left: 40px;
+    width: 400px;
+    max-width: 400px;
+}
+.charts>.ranking>.song-ranking>div>.play-song{
+    padding: 0;
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+}
+.charts>.ranking>.song-ranking>div>div>a{
+    display: block;
+    color: #fff;
+    text-decoration: none !important;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 18px;
+}
+.charts>.ranking>.song-ranking>div>div>a:hover{
+    color: #0d5cb6;
+}
+.charts>.ranking>.song-ranking>.info>div>.song-name{
+    font-weight: 600;
+    font-size: 15px;
+}
+.charts>.ranking>.song-ranking>.info>div>.singer-name{
+    margin-top: 7px;
+}
+.charts>.ranking>.song-ranking>div>.play-song:hover{
+    box-shadow: 0px 0px 6px 2px rgb(0, 154, 243);
+    transform: translateY(0) scale(1.01);
+}
+.charts>.ranking>.song-ranking>div>.play-song>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+}
+.charts>.ranking>.song-ranking>.action-song{
+    align-items: center;
+    margin-left: 400px;
+    /* background-color: ; */
+}
+.charts>.ranking>.song-ranking>.action-song>button{
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: hsla(0,0%,100%,0.55);
+    cursor: pointer;
+}
+.charts>.ranking>.song-ranking>.action-song>button:active{
+    box-shadow: 0px 0px 5px 1px #FFF;
+    transform: translateY(0) scale(1.01);
+}
+.charts>.ranking>.song-ranking>.action-song>button>i{
+    font-size: 150%;
+    color:rgb(241, 15, 15);
+}

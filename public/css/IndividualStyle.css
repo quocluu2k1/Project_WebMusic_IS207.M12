@@ -1,0 +1,65 @@
+.individual{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.individual>img{
+    margin-top: 20px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    align-items: center;
+}
+.individual>h3{
+    padding: 0;
+    margin-top: 15px;
+    font-size: 32px;
+}
+.individual>hr{
+    width: 80%;
+    color: aqua;
+    border: 1px solid rgb(0, 89, 255);
+}
+.individual>span{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.individual>.myplaylist{
+    display: inline-block;
+    width: 170px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+.individual>.myplaylist>button{
+    padding: 0;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+.individual>.myplaylist>button:hover{
+    box-shadow: 0px 0px 6px 2px rgb(0, 154, 243);
+    transform: translateY(0) scale(1.01);
+}
+
+.individual>.myplaylist>button>img{
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+}
+.individual>.myplaylist>a{
+    display: block;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none !important;
+}
+.individual>.myplaylist>a:hover{
+    color: #0d5cb6;
+}

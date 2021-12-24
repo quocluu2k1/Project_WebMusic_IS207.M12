@@ -1,0 +1,32 @@
+[
+    {
+        "id": "us1",
+        "name": "Sơn Tùng",
+        "avatar": "img-avatar/avatar1.jpg",
+        "content": "10 điểm <3"
+    },
+    {
+        "id": "us2",
+        "name": "Erik",
+        "avatar": "img-avatar/avatar2.jpg",
+        "content": "Nhạc cảm xúc quá"
+    },
+    {
+        "id": "us3",
+        "name": "Justin Bieber",
+        "avatar": "img-avatar/avatar3.jpg",
+        "content": "Great Songs"
+    },
+    {
+        "id": "us4",
+        "name": "Nguyễn Văn Đạt",
+        "avatar": "img-avatar/avatar4.jpg",
+        "content": "Bài hát nghe dễ chịu quá!!!"
+    },
+    {
+        "id": "us5",
+        "name": "Trần Kim An",
+        "avatar": "img-avatar/avatar5.jpg",
+        "content": ":))))))"
+    }
+]

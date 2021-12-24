@@ -1,0 +1,65 @@
+.playlist-detail{
+    display: flex;
+    padding: 0;
+    margin: 20px 20px 20px 40px;
+}
+.playlist-detail>.playlist-info>img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(6, 90, 247);
+}
+.playlist-detail>.list-song{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 680px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsla(0,0%,100%,0.03);
+}
+.playlist-detail>.list-song>.song{
+    width: 560px; 
+    height: 70px; 
+}
+.playlist-detail>.list-song>.song>.info{
+    display: flex;  
+    padding: 10px;
+    border-radius: 5px;
+}
+.playlist-detail>.list-song>.song>.info:hover{
+    background-color: hsla(0,0%,100%,0.1);
+}
+.playlist-detail>.list-song>.song>.info>.play-song{
+    margin-left: 10px;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.playlist-detail>.list-song>.song>.info>.play-song:hover{
+    box-shadow: 0px 0px 6px 2px rgb(0, 154, 243);
+    transform: translateY(0) scale(1.01);
+}
+.playlist-detail>.list-song>.song>.info>.play-song>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.playlist-detail>.list-song>.song>.info>div>a{
+    display: block;
+    text-decoration: none !important;
+    color: #fff;
+    margin-left: 20px;
+    text-align: left;
+}
+.playlist-detail>.list-song>.song>.info>div>a:hover{
+    color:rgb(6, 90, 247);
+}
+.playlist-detail>.list-song>.song>.info>div>.song-name{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.playlist-detail>.list-song>.song>.info>div>.singer-name{
+    margin-top: 10px;
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "id": "pl1",
+        "name": "Nhạc hay"
+    },
+    {
+        "id": "pl2",
+        "name": "Nhạc chill cuối tuần"
+    },
+    {
+        "id": "pl3",
+        "name": "Nhạc US-UK"
+    },
+    {
+        "id": "pl4",
+        "name": "Nhạc dễ ngủ"
+    },
+    {
+        "id": "pl5",
+        "name": "Nhạc remix"
+    },
+    {
+        "id": "pl6",
+        "name": "Bài hát về đất nước"
+    },
+    {
+        "id": "pl7",
+        "name": "playlist test"
+    }
+]

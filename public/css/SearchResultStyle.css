@@ -1,0 +1,178 @@
+.search-result{
+    padding: 0;
+}
+.search-result>.title{
+    margin: 20px 10px 1px 10px;
+    display: inline-flex;
+}
+.search-result>.title>span, .search-result>.title>a{
+    margin: auto;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none !important;
+    margin-left: 15px;
+}
+.search-result>.title>span{
+    opacity: 0.3;
+}
+.search-result>.title>a{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.search-result>.title>.action-result{
+    color: red;
+}
+.search-result>hr{
+    width: 85%;
+    margin-bottom: 40px;
+}
+.search-result>h2{
+    text-align: left;
+    margin-left: 80px;
+}
+.search-result>.result{
+    text-align: left;
+    margin-left: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsla(0,0%,100%,0.03);   
+
+}
+
+.search-result>.result>.song-result{
+    display: flex;
+    margin-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    padding-left: 30px; 
+    border-radius: 15px;
+}
+.search-result>.result>.song-result:hover{
+    background-color: hsla(0,0%,100%,0.15);
+}
+.search-result>.result>.song-result>.info{
+    display:flex;
+    margin-left: 40px;
+    width: 400px;
+    max-width: 400px;
+}
+.search-result>.result>.song-result>.info>.play-song{
+    padding: 0;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.search-result>.result>.song-result>.info>.play-song:hover{
+    box-shadow: 0px 0px 6px 2px rgb(0, 154, 243);
+    transform: translateY(0) scale(1.01);
+}
+
+.search-result>.result>.song-result>div>.play-song>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+}
+.search-result>.result>.song-result>.info>div>a{
+    display: block;
+    color: #fff;
+    text-decoration: none !important;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 18px;
+}
+.search-result>.result>.song-result>.info>div>a:hover{
+    color: #0d5cb6;
+}
+.search-result>.result>.song-result>.info>div>.song-name{
+    font-weight: 600;
+    font-size: 15px;
+}
+.search-result>.result>.song-result>.info>div>.singer-name{
+    margin-top: 7px;
+}
+.search-result>.result>.song-result>.action-song{
+    margin-left: 400px;
+}
+.search-result>.result>.song-result>.action-song>button{
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: hsla(0,0%,100%,0.55);
+    cursor: pointer;
+}
+.search-result>.result>.song-result>.action-song>button:active{
+    box-shadow: 0px 0px 5px 1px #FFF;
+    transform: translateY(0) scale(1.01);
+}
+.search-result>.result>.song-result>.action-song>button>i{
+    font-size: 150%;
+    color:rgb(241, 15, 15);
+}
+
+.search-result>.result2{
+    display:inline-flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsla(0,0%,100%,0.03);
+}
+.search-result>.result2>.singer-result{
+    margin-top: 10px;
+    width: 195px;
+    height: 150px;
+}
+.search-result>.result2>.singer-result>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #0d5cb6;
+}
+.search-result>.result2>.singer-result>a{
+    display: block;
+    text-decoration: none !important;
+    color: #fff;
+    margin-top: 12px;
+    font-weight: 600;
+}
+.search-result>.result2>.singer-result>a:hover{
+    color: #0d5cb6;
+}
+
+.search-result>.result3{
+    display: inline-block;
+    align-items: left;
+    background-color: hsla(0,0%,100%,0.05);
+    padding: 10px;
+    border-radius: 5px;
+}
+.search-result>.result3>a{
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-decoration: none !important;
+    /* text-align: left; */
+}
+.search-result>.result3>a>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    
+}
+.search-result>.result3>a>img:hover{
+    box-shadow: 0px 0px 6px 2px rgb(0, 154, 243);
+    transform: translateY(0) scale(1.01);
+}
+.search-result>.result3>a>div>h3{
+    color: #0777f8;
+    margin-bottom: 0;
+}
+.search-result>.result3>a>div>p{
+    text-align: left;
+    margin-left: 5px;
+    font-style: italic;
+    margin-top: 8px;
+}
